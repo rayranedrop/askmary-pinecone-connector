@@ -37,7 +37,7 @@ This project requires Python 3.11+ and [Poetry](https://python-poetry.org/docs/)
 For production releases, you can optionally build and deploy using [Docker](https://www.docker.com/get-started/). When building a Docker image, you can use the `Dockerfile` in the root project directory and specify the `app` build argument. For example:
 
 ```shell
-docker build . -t gdrive:1 --build-arg app=gdrive
+docker build . -t askmary-pinecone-connector:latest --build-arg app=pinecone
 ```
 
 # Development
